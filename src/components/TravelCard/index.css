@@ -1,0 +1,32 @@
+.list-items {
+  list-style-type: none;
+  background-color: #ffffff;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+.image {
+  width: 100%;
+}
+.text-cont {
+  padding: 10px;
+}
+.place-heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #475569;
+  font-weight: 800;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #64748b;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .list-items {
+    margin-left: 20px;
+    margin-bottom: 30px;
+    width: 300px;
+  }
+}
